@@ -5,4 +5,7 @@ We are using 5v relays which are connected to d7 and d8 of node mcu
 a buzzer which is connected to d4 
 the buzzer is used as alaram and where we input time through terminal in blynk app which is connected to the virtual pin v2
 The outputs of the arduino are connected at d5 and d6 to the node mcu 
-the final outputs d7 and d8 are conneced to the arduino at digital pins 5 and 6 which acts as feedback i.e when there is any change u=in the state of applience the message is sent to the user
+the final outputs d7 and d8 are conneced to the arduino at digital pins 5 and 6 which acts as feedback i.e when there is any change in the state of applience the message is sent to the user
+a oled display is used which helps in displaying the current time and last  take n actiona nd the present state of the appliences 
+the display is connectd to the default i2c pins of node mc is sda to d1 and scl to d0
+
